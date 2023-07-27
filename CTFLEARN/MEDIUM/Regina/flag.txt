@@ -1,0 +1,38 @@
+.bss:00000000004021F0 tstart dq 1434A855B620h                 ; DATA XREF: _start+9↑w
+.bss:00000000004021F0                                         ; .text:000000000040103D↑r
+.bss:00000000004021F8 buffer1 dq 4010D0h                      ; DATA XREF: Label007:Label027↑w
+.bss:00000000004021F8                                         ; Label007+626↑r
+.bss:0000000000402200 qword_402200 dq 4010FAh                 ; DATA XREF: Label007+6F↑w
+.bss:0000000000402200                                         ; Label007+50B↑r
+.bss:0000000000402208 qword_402208 dq 401133h                 ; DATA XREF: Label007+7B↑w
+.bss:0000000000402210 qword_402210 dq 4014E7h                 ; DATA XREF: Label007+87↑w
+.bss:0000000000402218 qword_402218 dq 4014F5h                 ; DATA XREF: Label007+93↑w
+.bss:0000000000402218                                         ; Label007+600↑r
+.bss:0000000000402220 qword_402220 dq 401508h                 ; DATA XREF: Label007+9F↑w
+.bss:0000000000402228 qword_402228 dq 401529h                 ; DATA XREF: Label007+AB↑w
+.bss:0000000000402230 qword_402230 dq 401562h                 ; DATA XREF: Label007+B7↑w
+.bss:0000000000402238 qword_402238 dq 4015E9h                 ; DATA XREF: Label007+C3↑w
+.bss:0000000000402238                                         ; Label007:Label027a↑r
+.bss:0000000000402240 qword_402240 dq 401653h                 ; DATA XREF: Label007+CF↑w
+.bss:0000000000402248 qword_402248 dq 40160Ah                 ; DATA XREF: Label007+DB↑w
+.bss:0000000000402250 qword_402250 dq 401661h                 ; DATA XREF: Label007+E7↑w
+.bss:0000000000402250                                         ; .text:0000000000401854↑r
+.bss:0000000000402258 qword_402258 dq 401682h                 ; DATA XREF: Label007+F3↑w
+.bss:0000000000402260 qword_402260 dq 4016DEh                 ; DATA XREF: Label007+1C↑r
+.bss:0000000000402260                                         ; Label007+FF↑w ...
+.bss:0000000000402268 qword_402268 dq 401704h                 ; DATA XREF: Label007+10B↑w
+.bss:0000000000402270 qword_402270 dq 401712h                 ; DATA XREF: Label007+117↑w
+.bss:0000000000402270                                         ; Label007:Label128a↑r
+.bss:0000000000402278 qword_402278 dq 40176Bh                 ; DATA XREF: Label007+123↑w
+.bss:0000000000402280 qword_402280 dq 401799h                 ; DATA XREF: Label007+12F↑w
+.bss:0000000000402280                                         ; .text:0000000000401925↑r
+.bss:0000000000402288 qword_402288 dq 4017BAh                 ; DATA XREF: Label007+13B↑w
+.bss:0000000000402290 qword_402290 dq 401862h                 ; DATA XREF: Label007+147↑w
+.bss:0000000000402298 qword_402298 dq 401887h                 ; DATA XREF: Label007+153↑w
+.bss:0000000000402298                                         ; Label256+4B↑r
+.bss:00000000004022A0 qword_4022A0 dq 4018A8h                 ; DATA XREF: Label007+15F↑w
+.bss:00000000004022A8 qword_4022A8 dq 401908h                 ; DATA XREF: Label007+16B↑w
+.bss:00000000004022A8                                         ; .text:00000000004018FA↑r
+.bss:00000000004022B0 qword_4022B0 dq 401933h                 ; DATA XREF: Label007+177↑w
+.bss:00000000004022B0                                         ; Label007:Label150a↑r
+.bss:00000000004022B8 qword_4022B8 dq 401952h   

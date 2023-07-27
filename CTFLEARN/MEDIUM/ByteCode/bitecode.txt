@@ -1,0 +1,32 @@
+public static boolean checkNum(int);
+    descriptor: (I)Z
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=3, args_size=1
+         0: iload_0									//	push parameter onto stack
+         1: iconst_3									//	push const value 3 onto stack
+         2: ishl										//	parameter << 3
+         3: istore_1									// 	store int value into variable 1 -> stack empty
+         4: iload_0									//	push paramete onto stack
+         5: ldc           #2                  // int 525024598		// 	push 525024598 onto stack
+         7: ixor										//	paramete XOR parameter
+         8: istore_2									// 	store int value into varialbe 2 -> stack empty					
+         9: iload_1									//	push var1 onto stack
+        10: iload_2									//	push var2 onto stack
+        11: ixor										//	var1 XOR var2
+        12: ldc           #3                  // int -889275714		// 	push 525024598 onto stack
+        14: if_icmpne     21								//	if (var1 XOR var2) != 525024598   -> line 21	
+        17: iconst_1									//	push const value 1 onto stack
+        18: goto          22								//	goto line 22
+        21: iconst_0									//	push const value 0 onto stack
+        22: ireturn									//	ret
+      LineNumberTable:
+        line 3: 0
+        line 4: 4
+        line 5: 9
+      StackMapTable: number_of_entries = 2
+        frame_type = 253 /* append */
+          offset_delta = 21
+          locals = [ int, int ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
