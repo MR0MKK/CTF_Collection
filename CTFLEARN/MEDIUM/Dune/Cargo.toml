@@ -1,0 +1,16 @@
+[package]
+name = "dune"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 'z'
+lto = true
+strip = true
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4.3"
+sha256 = "1.1.2"

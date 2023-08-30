@@ -1,0 +1,2 @@
+
+    bracemap = buildbracemap(code)
